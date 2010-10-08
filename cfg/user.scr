@@ -1,0 +1,333 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Tue Oct 05 18:24:44 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"mp_decals"
+	{
+		"#Valve_Multiplayer_Decal_Limit"
+		{ NUMBER 0 4096 }
+		{ "4000" }
+	}
+
+	"cl_hud_minmode"
+	{
+		"#GameUI_EnableHUDMinMode"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_classautokill"
+	{
+		"#TF_classautokill"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_medigun_autoheal"
+	{
+		"#TF_medigun_autoheal"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_autorezoom"
+	{
+		"#TF_autozoom"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_autoreload"
+	{
+		"#TF_autoreload"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_takesshots"
+	{
+		"#game_takesshots"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_remember_activeweapon"
+	{
+		"#TF_rememberactiveweapon"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_remember_lastswitched"
+	{
+		"#TF_rememberlastweapon"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_drawviewmodel"
+	{
+		"#TF_drawviewmodel_option"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_flipviewmodels"
+	{
+		"#TF_flipviewmodel_option"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"viewmodel_fov"
+	{
+		"#TF_viewmodelfov_option"
+		{ SLIDER 54 70 }
+		{ "70" }
+	}
+
+	"cl_playerspraydisable"
+	{
+		"#GameUI_DisableSprays"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_colorblindassist"
+	{
+		"#TF_colorblindassist"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_disablehtmlmotd"
+	{
+		"#Valve_DisableHTMLMOTD"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_spec_carrieditems"
+	{
+		"#TF_SpectateCarriedItems"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_use_tournament_specgui"
+	{
+		"#TF_UseAdvancedTourneyGUI"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_particles_disable_weather"
+	{
+		"#TF_DisableWeatherParticles"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_simple_disguise_menu"
+	{
+		"#TF_simple_disguise_menu_option"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_combattext"
+	{
+		"#TF_CombatText"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medichealtargetmarker"
+	{
+		"#TF_HealTargetMarker"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medicautocallers"
+	{
+		"#TF_AutoMedicCallers"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_medicautocallersthreshold"
+	{
+		"#TF_AutoMedicCallThreshold"
+		{ SLIDER 10 99 }
+		{ "55.830002" }
+	}
+
+	"tf_dingalingaling"
+	{
+		"#TF_Hitbeeps"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"glow_outline_effect_enable"
+	{
+		"#TF_UseGlowEffect"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_cloud_settings"
+	{
+		"#Valve_UseSteamCloud"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_notifications_show_ingame"
+	{
+		"#TF_ShowNotificationsInGame"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_trading_show_requests_from"
+	{
+		"#TF_ShowTradeRequestsFrom"
+		{
+			LIST
+			"#TF_ShowTradeRequestsFrom_FriendsOnly" "1"
+			"#TF_ShowTradeRequestsFrom_FriendsAndServer" "2"
+			"#TF_ShowTradeRequestsFrom_Anyone" "3"
+			"#TF_ShowTradeRequestsFrom_NoOne" "4"
+		}
+		{ "3" }
+	}
+
+	"sb_close_browser_on_connect"
+	{
+		"#GameUI_CloseBrowserOnConnect"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"prec_mode"
+	{
+		"PREC: Record mode"
+		{
+			LIST
+			"Don't record" "0"
+			"Named demos" "1"
+			"In tournament mode" "2"
+			"Every game" "3"
+		}
+		{ "2" }
+	}
+
+	"prec_recordstv"
+	{
+		"PREC:Record STV"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"prec_notify"
+	{
+		"PREC: Notify"
+		{
+			LIST
+			"In console" "0"
+			"In team chat" "1"
+			"In HUD" "2"
+		}
+		{ "1" }
+	}
+
+	"prec_log"
+	{
+		"PREC: Streaks log mode"
+		{
+			LIST
+			"Don't log" "0"
+			"All into killstreaks.txt" "1"
+			"Text file for each demo" "2"
+			"Text file for each map" "3"
+		}
+		{ "1" }
+	}
+
+	"prec_min_streak"
+	{
+		"PREC: Minimum kills in streak"
+		{ NUMBER 1 20 }
+		{ "3" }
+	}
+
+	"prec_screens"
+	{
+		"PREC: Make score and status screenshots"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"prec_sound"
+	{
+		"PREC: Enable sounds"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"prec_dir"
+	{
+		"PREC: Folder to store demos in tf/"
+		{ STRING }
+		{ "" }
+	}
+
+	"prec_delete_useless_demo"
+	{
+		"PREC: Delete demos without bookmarks or streaks"
+		{ BOOL }
+		{ "0" }
+	}
+
+}

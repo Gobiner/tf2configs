@@ -1,0 +1,26 @@
+"motd_entries"
+{
+	"last_request_time"		"2010-09-30 16:40:49"
+	"last_request_language"		"english"
+	"1"
+	{
+		"post_time"		"2010-06-08 12:00:00"
+		"title_english"		"Checked out the blog?"
+		"text_english"		"If you haven't read the official TF2 blog, it's full of insights into our development process, links to notable community productions, and random stories about our love of hats. Hit the button below to take a look!"
+		"url"		"http:\\www.teamfortress.com\"
+	}
+	"2"
+	{
+		"post_time"		"2010-07-01 12:00:00"
+		"title_english"		"Official Wiki opens!"
+		"text_english"		"We've recently opened the doors on the Official TF2 wiki. There you can find out everything TF2 related, from the numerical nuts and bolts of every weapon to the easter eggs inside the Meet the Team movies. They're always looking for more contributors, so why not head over and help them?"
+		"url"		"http:\\wiki.teamfortress.com\"
+	}
+	"3"
+	{
+		"post_time"		"2010-09-30 12:00:00"
+		"title_english"		"The Mann-conomy Update!"
+		"text_english"		"Featuring over 50 new items, the Mann. Co Store and Catalog, trading, item customization, and much more! What are you waiting for? Get out there and get yourself some loot!"
+		"url"		"http:\\www.teamfortress.com\mannconomy"
+	}
+}
