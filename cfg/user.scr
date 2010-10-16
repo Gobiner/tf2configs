@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 05 18:24:44 AM
+// File generated:  Sat Oct 16 00:31:18 AM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "4000" }
+		{ "4096" }
 	}
 
 	"cl_hud_minmode"
@@ -60,6 +60,13 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_classautokill"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"tf_respawn_on_loadoutchanges"
+	{
+		"#TF_loadoutrespawn"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"tf_medigun_autoheal"
@@ -129,7 +136,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#GameUI_DisableSprays"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_colorblindassist"
@@ -220,7 +227,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_notifications_show_ingame"
