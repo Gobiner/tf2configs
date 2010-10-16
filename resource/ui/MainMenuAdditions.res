@@ -3,16 +3,13 @@
 	MainMenuAdditions
 	{
 		"fieldName"		"MainMenuAdditions"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"xpos"			"c0"
 		"ypos"			"310"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"http://www.teamfortress.com/"
+		"wide"			"300"
+		"tall"			"100"
 	}	
 	
 	"BGPanel"
@@ -23,7 +20,7 @@
 		"ypos"			"10"
 		"wide"			"190"
 		"tall"			"55"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"59 54 48 255"
 	}
@@ -37,9 +34,9 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"85"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"main_menu/100_newspaper_01"
+		"image"			"main_menu/war_newspaper"
 		"scaleImage"		"1"
 	}				
 	
@@ -54,7 +51,7 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ViewBlog"
@@ -66,8 +63,7 @@
 		"Command"		"viewblog"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
+	}		
 	"ShowUpdatesButton"
 	{
 		"ControlName"	"CTFButton"
@@ -79,10 +75,10 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#ViewUpdate"
+		"labelText"		"#ViewWar"
 		"font"			"ItemFontNameSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"0"

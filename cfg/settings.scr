@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 05 02:32:24 PM
+// File generated:  Mon Jul 12 11:45:50 PM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Team Fortress 2" }
+		{ "J.O.I.N." }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1 24 }
-		{ "4" }
+		{ "20" }
 	}
 
 	"sv_password"
@@ -66,21 +66,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#TF_Timelimit"
 		{ NUMBER 0 -1 }
-		{ "10000" }
+		{ "30" }
 	}
 
 	"mp_winlimit"
 	{
 		"#TF_WinLimit"
 		{ NUMBER 0 -1 }
-		{ "0" }
+		{ "10" }
 	}
 
 	"mp_maxrounds"
 	{
 		"#TF_MaxRounds"
 		{ NUMBER 0 -1 }
-		{ "0" }
+		{ "2" }
 	}
 
 }

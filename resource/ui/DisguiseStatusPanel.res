@@ -33,10 +33,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"10"
-		"ypos"			"30"
+		"ypos"			"48"
 		"zpos"			"-1"
 		"wide"			"140"
-		"tall"	 		"22"
+		"tall"	 		"32"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -52,17 +52,17 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"3"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"m0refont10"
-		"xpos"			"40"
-		"ypos"			"32"
+		"font"			"TFFontMedium"
+		"xpos"			"45"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -74,16 +74,15 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" "255 255 255 255"
 	}
 	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"m0refont10"
-		"xpos"			"40"
-		"ypos"			"41"
+		"font"			"TFFontMedium"
+		"xpos"			"45"
+		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -95,7 +94,6 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" "255 255 255 255"
 	}
 	
 	"SpectatorGUIHealth"
@@ -103,7 +101,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"10"
-		"ypos"			"26"
+		"ypos"			"47"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"

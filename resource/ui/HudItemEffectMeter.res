@@ -3,11 +3,13 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"xpos"			"r435"	[$WIN32]
-		"ypos"			"r95"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"r180"	[$WIN32]
+		"ypos"			"r22"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"250"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -20,10 +22,9 @@
 		"xpos"			"12"
 		"ypos"			"6"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"wide"			"76"
+		"tall"			"38"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -37,15 +38,14 @@
 	{
 		"ControlName"			"CTFLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"100"
+		"ypos"					"-5"
 		"zpos"					"2"
-		"wide"					"0"
-		"tall"					"0"
+		"wide"					"41"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -61,12 +61,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"0"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"ypos"					"-2"
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"6"				
+		"tall"					"8"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

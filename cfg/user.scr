@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 05 18:24:44 AM
+// File generated:  Thu Jan 07 21:09:29 AM
 //
 //
 // Cvar	-	Setting
@@ -45,35 +45,35 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "4000" }
+		{ "12" }
 	}
 
 	"cl_hud_minmode"
 	{
 		"#GameUI_EnableHUDMinMode"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_classautokill"
 	{
 		"#TF_classautokill"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_medigun_autoheal"
 	{
 		"#TF_medigun_autoheal"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_autorezoom"
 	{
 		"#TF_autozoom"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_autoreload"
@@ -87,28 +87,28 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#game_takesshots"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_remember_activeweapon"
 	{
 		"#TF_rememberactiveweapon"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_remember_lastswitched"
 	{
 		"#TF_rememberlastweapon"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"r_drawviewmodel"
 	{
 		"#TF_drawviewmodel_option"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_flipviewmodels"
@@ -122,14 +122,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_viewmodelfov_option"
 		{ SLIDER 54 70 }
-		{ "70" }
+		{ "54" }
 	}
 
 	"cl_playerspraydisable"
 	{
 		"#GameUI_DisableSprays"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_colorblindassist"
@@ -141,7 +141,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"cl_disablehtmlmotd"
 	{
-		"#Valve_DisableHTMLMOTD"
+		"#TF_disableHTMLMOTD"
 		{ BOOL }
 		{ "0" }
 	}
@@ -171,7 +171,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_simple_disguise_menu_option"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_combattext"
@@ -185,21 +185,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_HealTargetMarker"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_medicautocallers"
 	{
 		"#TF_AutoMedicCallers"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_medicautocallersthreshold"
 	{
 		"#TF_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "55.830002" }
+		{ "75" }
 	}
 
 	"tf_dingalingaling"
@@ -207,127 +207,6 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Hitbeeps"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"glow_outline_effect_enable"
-	{
-		"#TF_UseGlowEffect"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_cloud_settings"
-	{
-		"#Valve_UseSteamCloud"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_notifications_show_ingame"
-	{
-		"#TF_ShowNotificationsInGame"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_trading_show_requests_from"
-	{
-		"#TF_ShowTradeRequestsFrom"
-		{
-			LIST
-			"#TF_ShowTradeRequestsFrom_FriendsOnly" "1"
-			"#TF_ShowTradeRequestsFrom_FriendsAndServer" "2"
-			"#TF_ShowTradeRequestsFrom_Anyone" "3"
-			"#TF_ShowTradeRequestsFrom_NoOne" "4"
-		}
-		{ "3" }
-	}
-
-	"sb_close_browser_on_connect"
-	{
-		"#GameUI_CloseBrowserOnConnect"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"prec_mode"
-	{
-		"PREC: Record mode"
-		{
-			LIST
-			"Don't record" "0"
-			"Named demos" "1"
-			"In tournament mode" "2"
-			"Every game" "3"
-		}
-		{ "2" }
-	}
-
-	"prec_recordstv"
-	{
-		"PREC:Record STV"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"prec_notify"
-	{
-		"PREC: Notify"
-		{
-			LIST
-			"In console" "0"
-			"In team chat" "1"
-			"In HUD" "2"
-		}
-		{ "1" }
-	}
-
-	"prec_log"
-	{
-		"PREC: Streaks log mode"
-		{
-			LIST
-			"Don't log" "0"
-			"All into killstreaks.txt" "1"
-			"Text file for each demo" "2"
-			"Text file for each map" "3"
-		}
-		{ "1" }
-	}
-
-	"prec_min_streak"
-	{
-		"PREC: Minimum kills in streak"
-		{ NUMBER 1 20 }
-		{ "3" }
-	}
-
-	"prec_screens"
-	{
-		"PREC: Make score and status screenshots"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"prec_sound"
-	{
-		"PREC: Enable sounds"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"prec_dir"
-	{
-		"PREC: Folder to store demos in tf/"
-		{ STRING }
-		{ "" }
-	}
-
-	"prec_delete_useless_demo"
-	{
-		"PREC: Delete demos without bookmarks or streaks"
-		{ BOOL }
-		{ "0" }
 	}
 
 }

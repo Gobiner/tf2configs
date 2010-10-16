@@ -592,6 +592,61 @@ Scheme
 				"weight"		"800"
 			}
 		}
+		"DefaultOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+			}
+		}
+		"tnr"
+		{
+			"1"
+			{
+				"name"		"times"
+				"tall"		"26"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"1"
+			}
+		}
+		"CrosshairsLarge"
+		{
+			"1"
+			{
+				"name"		"CrosshairPack"
+				"tall"		"27"
+				"weight"	"900"
+				"range"		"0x0000 0xFFFF" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"0"
+			}
+		}
+		"CrosshairsMedium"
+		{
+			"1"
+			{
+				"name"		"CrosshairPack"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0xFFFF" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"0"
+			}
+		}
+		"CrosshairsSmall"
+		{
+			"1"
+			{
+				"name"		"CrosshairPack"
+				"tall"		"8"
+				"weight"	"900"
+				"range"		"0x0000 0xFFFF" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"0"
+			}
+		}
 		"DefaultSmall"
 		{
 			"1"
@@ -2575,6 +2630,20 @@ Scheme
 		{
 			"font" "resource/COOLVETI.TTF"
 			"name" "coolvetica"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		"9" 
+		{
+			"font" "resource/CrosshairFont.ttf"
+			"name" "CrosshairPack"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		"10" 
+		{
+			"font" "resource/times.ttf"
+			"name" "tnr"
 			{
 				"range" "0x0000 0xFFFF"
 			}

@@ -5,36 +5,34 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"24"
-		"ypos_minmode" "35"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_2_lodef"	"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		"teambg_3_lodef"	"../hud/objectives_timepanel_blue_bg"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"3"				// pixels inside the image
-		"src_corner_width"		"3"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"24"
-		"ypos_minmode" "35"
+		"xpos"			"1020"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -42,22 +40,21 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"
-		"image_lodef"	"../hud/objectives_timepanel_blue_bg"
+		"image"			"../hud/color_panel_blu"
+		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"3"				// pixels inside the image
-		"src_corner_width"		"3"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"24"
-		"ypos_minmode" "35"
+		"xpos"			"1020"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -65,42 +62,23 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_red_bg"
-		"image_lodef"	"../hud/objectives_timepanel_red_bg"
+		"image"			"../hud/color_panel_red"
+		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"3"				// pixels inside the image
-		"src_corner_width"		"3"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
-	 "m0reshade"
-{
-"ControlName""ImagePanel"
-"fieldName""TargetBGshade"
-"xpos""-1"
-"ypos""13"
-"ypos_minmode""11"
-"zpos""-10"
-"wide""640"
-"tall" "11"
-"tall_minmode" "14"
-"autoResize""0"
-"pinCorner""0"
-"visible""1"
-"enabled""1"
-"fillcolor""0 0 0 75"
-"fillcolor_minmode""0 0 0 100"
-"PaintBackgroundType""0"
-}
+	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"m0refont12"
-		"xpos"			"38"
-		"xpos_minmode"			"65"
-		"ypos"			"12"
+		"font"			"TFFontLarge"
+		"xpos"			"35"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -112,22 +90,20 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" "255 255 255 255"
+		"fgcolor"		"White"
 	}
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"DefaultVerySmall"
-		"font_minmode"			"m0refont10"
-		"xpos"			"57"
-		"xpos_minmode"	"38"
-		"ypos"			"24"	[$WIN32]
-		"ypos_minmode"	"23"	[$WIN32]
+		"xpos"			"35"
+		"ypos"			"17"	[$WIN32]
+		"ypos"			"22"	[$X360]
+		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"10"
-		"tall_minmode"			"15"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -136,18 +112,15 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" "255 255 255 255"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
-		"ypos"			"3"
-		"ypos_minmode"			"3"
-		"wide"			"62"
-		"tall"			"132"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"34"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"

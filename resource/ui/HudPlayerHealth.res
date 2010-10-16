@@ -1,118 +1,63 @@
-"Resource/UI/HudPlayerHealth.res"
+	"Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"115"		[$WIN32]
-		"xpos_minmode"	"160"		[$WIN32]
-		"ypos"			"r160"	[$WIN32]
-		"ypos_minmode"	"r160"	[$WIN32]
+		"xpos"			"c-280"		[$WIN32]
+		"ypos"			"r120"	[$WIN32]
+		"xpos"			"32"	[$X360]
+		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"150"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"xpos"			"70"
+		"ypos"			"56"
 		"zpos"			"4"
-		"wide"			"60"
-		"wide_minmode" "0"
-		"tall"			"60"
-		"tall_minmode" "0"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"69"
+		"ypos"			"55"
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"m0reStatusHealthImageBGtop"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"m0reStatusHealthImageBGtop"
-		"xpos"			"94"
-		"ypos"			"32"
-		"zpos"			"-1"
-		"wide"			"22"
-		"wide_minmode" "0"
-		"tall"	 		"21"
-		"tall_minmode" "0"
-		"autoResize"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 155"
-	}
-	"m0reStatusHealthImageBGbtm"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"m0reStatusHealthImageBGbtm"
-		"xpos"			"94"
-		"ypos"			"77"
-		"zpos"			"-1"
-		"wide"			"22"
-		"wide_minmode" "0"
-		"tall"	 		"21"
-		"tall_minmode" "0"
-		"autoResize"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 155"
-	}
-	"m0reStatusHealthImageBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"m0reStatusHealthImageBG2"
-		"xpos"			"72"
-		"ypos"			"53"
-		"zpos"			"-1"
-		"wide"			"66"
-		"wide_minmode" "0"
-		"tall"	 		"25"
-		"tall_minmode" "0"
-		"autoResize"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 155"
-	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"72"
-		"xpos_minmode"	"32"
-		"ypos"			"32"
-		"ypos_minmode"	"32"
+		"xpos"			"110"	[$WIN32]
+		"xpos"			"80"	[$X360]
+		"ypos"			"32"	[$WIN32]
+		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"66"
-		"wide_minmode"	"66"
-		"tall"			"66"
-		"tall_minmode"	"66"
+		"wide"			"75"	[$WIN32]
+		"wide"			"35"	[$X360]
+		"tall"			"75"	[$WIN32]
+		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -122,42 +67,34 @@
 	{
 		"ControlName"	"CTFLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"-10"
-		"ypos"			"50"	
-		"ypos_minmode" "10"
+		"xpos"			"95"
+		"ypos"			"45"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"60"
-		"wide_minmode" "150"
-		"tall"			"24"
-		"tall_minmode" "100"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"m0refont28"
-		"font_minmode" "m0refont72"
-		"fgcolor"		"m0rewhite"
-	}								
-	"PlayerStatusHealthValue2"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"TanLight"
+	}	
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CTFLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"77"
-		"xpos_minmode"	"-8"
-		"ypos"			"51"	
-		"ypos_minmode" "12"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"96"
+		"ypos"			"46"	[$WIN32]
+		"ypos"			"56"	[$X360]
 		"zpos"			"5"
-		"wide"			"60"
-		"wide_minmode" "150"
-		"tall"			"24"
-		"tall_minmode" "100"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"m0refont28"
-		"font_minmode" "m0refont72"
-		"fgcolor"		"0 0 0 255"
-	}								
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+	}						
 }
