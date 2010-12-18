@@ -31,3 +31,5 @@
 /cfg/config.cfg
 /scripts.movie
 /cfg/settings.scr
+*.dem
+/cfg/motd_entries.txt
