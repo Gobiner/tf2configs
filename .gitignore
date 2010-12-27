@@ -1,7 +1,6 @@
 
 /DownloadLists
 /scripts.movies
-/sound
 /addons
 /bin
 /cache
@@ -33,3 +32,4 @@
 /cfg/settings.scr
 *.dem
 /cfg/motd_entries.txt
+/cfg/server_blacklist.txt
