@@ -34,3 +34,4 @@
 *.dem
 /cfg/motd_entries.txt
 /cfg/server_blacklist.txt
+/cfg/config_arena.cfg
