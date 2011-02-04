@@ -35,3 +35,11 @@
 /cfg/motd_entries.txt
 /cfg/server_blacklist.txt
 /cfg/config_arena.cfg
+/cfg/user.scr
+/resource/tfd.ttf
+/resource/game.ico
+/resource/tf.ttf
+/resource/tf2.ttf
+/resource/tf2build.ttf
+/resource/tf2professor.ttf
+/resource/tf2secondary.ttf
