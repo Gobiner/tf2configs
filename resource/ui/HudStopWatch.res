@@ -54,7 +54,7 @@
 
 		"TimePanelValue"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"m0refont12"
 			"fgcolor"		"m0rewhite"
@@ -71,7 +71,7 @@
 
 	"StopWatchScoreToBeat"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
 			"font"			"m0refont12"
 			"fgcolor"		"m0rewhite"
@@ -89,7 +89,7 @@
 	}
 	"StopWatchPointsLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
 			"font"			"m0refont10"
 			"fgcolor"		"m0rewhite"
@@ -109,7 +109,7 @@
 
 	"StopWatchLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
 		"font"			"defaultverysmall"
 		"fgcolor" "m0rewhite"
@@ -151,7 +151,7 @@
 
 	"StopWatchDescriptionLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
 			"font"			"m0refont10"
 			"fgcolor"		"m0rewhite"

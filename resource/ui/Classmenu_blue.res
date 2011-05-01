@@ -52,7 +52,7 @@
 		
 	"Offense"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
 		"xpos"			"-999"
 		"ypos"			"-999"
@@ -121,7 +121,7 @@
 	
 	"Defense"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Defense"
 		"xpos"			"-999"
 		"ypos"			"-999"
@@ -190,7 +190,7 @@
 	
 	"Support"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
 		"xpos"			"-999"
 		"ypos"			"-999"
@@ -297,7 +297,7 @@
 
 	"ClassMenuSelect"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
 		"xpos"			"-999"
 		"ypos"			"-999"
@@ -493,7 +493,7 @@
 	}
 	"CountLabel" [$WIN32]
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
 		"xpos"			"-999"
 		"ypos"			"-999"
@@ -505,7 +505,7 @@
 	
 	"numScout"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
 		"xpos"			"c70"
 		"ypos"			"c-45"
@@ -522,7 +522,7 @@
 	
 	"numSoldier"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"xpos"			"c70"
 		"ypos"			"c-35"
@@ -539,7 +539,7 @@
 	
 	"numPyro"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
 		"xpos"			"c70"
 		"ypos"			"c-25"
@@ -556,7 +556,7 @@
 	
 	"numDemoman"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
 		"xpos"			"c70"
 		"ypos"			"c-15"
@@ -573,7 +573,7 @@
 	
 	"numHeavy"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
 		"xpos"			"c70"
 		"ypos"			"c-5"
@@ -590,7 +590,7 @@
 	
 	"numEngineer"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"xpos"			"c70"
 		"ypos"			"c5"
@@ -607,7 +607,7 @@
 	
 	"numMedic"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
 		"xpos"			"c70"
 		"ypos"			"c15"
@@ -624,7 +624,7 @@
 	
 	"numSniper"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"xpos"			"c70"
 		"ypos"			"c25"
@@ -641,7 +641,7 @@
 	
 	"numSpy"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
 		"xpos"			"c70"
 		"ypos"			"c35"

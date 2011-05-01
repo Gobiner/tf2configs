@@ -36,7 +36,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CTFLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -76,7 +76,7 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"ControlName"			"CTFLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"72"
 		"ypos"					"20"
@@ -96,7 +96,7 @@
 	}
 	"ItemEffectMeterCount2"
 	{
-		"ControlName"			"CTFLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount2"
 		"xpos"					"74"
 		"ypos"					"22"

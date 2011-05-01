@@ -58,7 +58,7 @@
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
 			"xpos"			"60"
@@ -210,7 +210,7 @@
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -291,7 +291,7 @@
 			}
 			"MetalLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"MetalLabel"
 				"font"			"DefaultverySmall"
 				"xpos"			"0"
@@ -309,7 +309,7 @@
 			}	
 			"UpgradeLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
 				"font"			"DefaultverySmall"
 				"xpos"			"0"

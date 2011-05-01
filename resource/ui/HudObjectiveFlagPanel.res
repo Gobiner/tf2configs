@@ -82,7 +82,7 @@
 	
 	"BlueScore"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-98"
 		"ypos"			"r55"
@@ -104,7 +104,7 @@
 		
 	"BlueScoreShadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-97"
 		"xpos_minmode"			"c-96"
@@ -128,7 +128,7 @@
 							
 	"RedScore"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c50"
 		"ypos"			"r55"
@@ -150,7 +150,7 @@
 		
 	"RedScoreShadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c51"
 		"xpos_minmode"			"c52"
@@ -210,7 +210,7 @@
 	
 	"PlayingTo"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
 		"xpos"			"c-60"	[$X360]

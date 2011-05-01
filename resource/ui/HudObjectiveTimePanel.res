@@ -48,7 +48,7 @@
 	}
 	"TimePanelValue"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TimePanelValue"
 		"font"			"m0refont12"
 		"font_lodef"	"HudFontMedium"
@@ -87,7 +87,7 @@
 	}
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"font"			"m0refont10"
 		"fgcolor" "m0rewhite"
@@ -123,7 +123,7 @@
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"font"			"m0refont10"
 		"fgcolor" "m0rewhite"
@@ -159,7 +159,7 @@
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"font"			"m0refont10"
 		"fgcolor" "m0rewhite"
@@ -195,7 +195,7 @@
 	}	
 	"SetupLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"font"			"m0refont10"
 		"fgcolor" "m0rewhite"

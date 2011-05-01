@@ -53,7 +53,7 @@
 	
 	"TitleLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"xpos"			"0"
 		"ypos"			"36"
@@ -74,7 +74,7 @@
 	
 	"NumPipesLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NumPipesLabel"
 		"xpos"			"56"
 		"ypos"			"12"
@@ -96,7 +96,7 @@
 	}
 	"NumPipesLabelDropshadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NumPipesLabelDropshadow"
 		"xpos"			"58"
 		"ypos"			"13"

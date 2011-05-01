@@ -1,4 +1,4 @@
 "Plugin"
 {
-	"file" "addons/PREC.dll"
+	"file" "../tf/addons/PREC"
 }

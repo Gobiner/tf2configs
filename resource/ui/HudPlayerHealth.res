@@ -120,7 +120,7 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"-10"
@@ -141,7 +141,7 @@
 	}								
 	"PlayerStatusHealthValue2"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue2"
 		"xpos"			"77"
 		"xpos_minmode"	"-8"

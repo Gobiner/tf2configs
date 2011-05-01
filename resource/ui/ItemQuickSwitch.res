@@ -46,7 +46,7 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
@@ -64,7 +64,7 @@
 	}
 	"ClassLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
 		"font"			"m0refont10"
 		"labelText"		"#ClassBeingEquipped"
@@ -82,7 +82,7 @@
 
 	"ItemSlotLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"m0refont10"
 		"labelText"		"#PrimaryWeapon"
@@ -141,7 +141,7 @@
 		
 		"CurrentlyEquippedBackground"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
 			"font"			"m0refont10"
 			"labelText"		"#QuickSwitchEquipped"
@@ -160,7 +160,7 @@
 	
 	"NoItemsLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
 		"font"			"m0refont10"
 		"labelText"		"#NoItemsToEquip"

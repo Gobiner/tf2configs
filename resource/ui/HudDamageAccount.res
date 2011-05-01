@@ -15,7 +15,7 @@
 
 	"DamageAccountValue"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c-218"
 		"xpos_minmode" "c-214"
@@ -34,7 +34,7 @@
 	
 	"DamageAccountValueshadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueshadow"
 		"xpos"			"c-216"
 		"xpos_minmode" "c-212"

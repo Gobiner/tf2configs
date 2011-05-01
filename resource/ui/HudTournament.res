@@ -159,7 +159,7 @@
 	}
 	"TournamentConditionLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"m0refont10"
 		"fgcolor"		"TanLight"

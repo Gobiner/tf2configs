@@ -88,7 +88,7 @@
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
 			"xpos"			"60"
@@ -242,7 +242,7 @@
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -290,7 +290,7 @@
 						
 			"KillsLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -309,7 +309,7 @@
 					
 			"ShellsLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"ShellsLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -346,7 +346,7 @@
 			
 			"RocketsLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"RocketsLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -383,7 +383,7 @@
 			
 			"UpgradeLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"

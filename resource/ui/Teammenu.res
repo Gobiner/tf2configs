@@ -198,7 +198,7 @@
 	
 	"TeamMenuSelect"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"30"
 		"xpos_lodef"			"52"
@@ -224,7 +224,7 @@
 	
 	"TeamMenuAuto"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-70"
 		"ypos"			"c-17"
@@ -246,7 +246,7 @@
 	
 	"TeamMenuSpectate"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"c-17"
 		"ypos"			"c-17"
@@ -320,7 +320,7 @@
 	
 	"BlueCount"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-90"
 		"ypos"			"c0"
@@ -341,7 +341,7 @@
 	
 	"RedCount"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c5"
 		"ypos"			"c0"
@@ -407,7 +407,7 @@
 	
 	"BlueLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueLabel"
 		"xpos"			"c-70"
 		"ypos"			"c0"
@@ -428,7 +428,7 @@
 	
 	"RedLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedLabel"
 		"xpos"			"c-15"
 		"ypos"			"c0"

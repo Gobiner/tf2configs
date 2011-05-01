@@ -23,7 +23,7 @@
 	
 	"ChargeLabel"
 	{
-		"ControlName"			"CTFLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -92,7 +92,7 @@
 		
 		"NumPipesLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -114,7 +114,7 @@
 		}
 		"NumPipesLabelDropshadow"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"1"
 			"xpos_minmode"			"2"

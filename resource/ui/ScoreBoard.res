@@ -121,7 +121,7 @@
 	}							
 	"BlueTeamLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
 		"font"			"DefaultLargeShadow"
 		"labelText"		"%blueteamname%"
@@ -136,7 +136,7 @@
 	}							
 	"BlueTeamScore"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"HUDFontBiggerBold"
 		"labelText"		"%blueteamscore%"
@@ -152,7 +152,7 @@
 	}						
 	"BlueTeamPlayerCount"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%blueteamplayercount%"
@@ -167,7 +167,7 @@
 	}							
 	"RedTeamLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"DefaultLargeShadow"
 		"labelText"		"%redteamname%"
@@ -184,7 +184,7 @@
 	}							
 	"RedTeamScore"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
 		"font"			"HUDFontBiggerBold"
 		"labelText"		"%redteamscore%"
@@ -203,7 +203,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%redteamplayercount%"
@@ -220,7 +220,7 @@
 	}							
 	"ServerLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%server%"
@@ -235,7 +235,7 @@
 	}
 	"ServerTimeLeft"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
 		"font"			"DefaultLarge"
 		"font_minmode"	"DefaultLarge"
@@ -300,7 +300,7 @@
 	}
 	"Spectators"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%spectators%"
@@ -317,7 +317,7 @@
 	}	
 	"SpectatorsInQueue"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"DefaultSmallShadow"
 		"labelText"		"%waitingtoplay%"
@@ -351,7 +351,7 @@
 	}
 	"PlayerNameLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
 		"wide"			"0"
 		"tall"			"0"
@@ -376,7 +376,7 @@
 	}
 	"MapName"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
 		"wide"			"0"
 		"tall"			"0"
@@ -385,7 +385,7 @@
 	}	
 	"GameType"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"gametype"
 		"wide"			"0"
 		"tall"			"0"
@@ -409,7 +409,7 @@
 
 		"DuelingLabel"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
 			"font"			"ScoreboardSmall"
 			"labelText"		"#TF_ScoreBoard_Dueling"
@@ -483,7 +483,7 @@
 			}
 			"AvatarTextLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
 				"xpos"			"50"
@@ -502,7 +502,7 @@
 			}
 			"Score"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
@@ -562,7 +562,7 @@
 			}
 			"AvatarTextLabel"
 			{	
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
 				"xpos"			"50"
@@ -581,7 +581,7 @@
 			}
 			"Score"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"west"
@@ -615,7 +615,7 @@
 
 		"KillsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
 			"font"			"ScoreboardVerySmall"		
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
@@ -633,7 +633,7 @@
 		}						
 		"DeathsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DeathsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
@@ -652,7 +652,7 @@
 		}						
 		"AssistsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
@@ -670,7 +670,7 @@
 		}
 		"DestructionLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DestructionLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
@@ -688,7 +688,7 @@
 		}												
 		"Kills"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%kills%"
@@ -706,7 +706,7 @@
 		}
 		"Deaths"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%deaths%"
@@ -725,7 +725,7 @@
 		
 		"Assists"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%assists%"
@@ -743,7 +743,7 @@
 		}						
 		"Destruction"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%destruction%"
@@ -761,7 +761,7 @@
 		}						
 		"CapturesLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"CapturesLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
@@ -779,7 +779,7 @@
 		}						
 		"DefensesLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DefensesLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
@@ -797,7 +797,7 @@
 		}						
 		"DominationLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
@@ -815,7 +815,7 @@
 		}						
 		"RevengeLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
@@ -833,7 +833,7 @@
 		}						
 		"Captures"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Captures"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%captures%"
@@ -851,7 +851,7 @@
 		}						
 		"Defenses"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%defenses%"
@@ -869,7 +869,7 @@
 		}						
 		"Domination"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Domination"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%dominations%"
@@ -887,7 +887,7 @@
 		}						
 		"Revenge"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%Revenge%"
@@ -905,7 +905,7 @@
 		}						
 		"HealingLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"HealingLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
@@ -923,7 +923,7 @@
 		}						
 		"InvulnLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
@@ -941,7 +941,7 @@
 		}						
 		"TeleportsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
@@ -959,7 +959,7 @@
 		}						
 		"HeadshotsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
@@ -977,7 +977,7 @@
 		}						
 		"Healing"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%healing%"
@@ -995,7 +995,7 @@
 		}						
 		"Invuln"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%invulns%"
@@ -1013,7 +1013,7 @@
 		}						
 		"Teleports"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%teleports%"
@@ -1031,7 +1031,7 @@
 		}						
 		"Headshots"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%headshots%"
@@ -1049,7 +1049,7 @@
 		}						
 		"BackstabsLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
@@ -1067,7 +1067,7 @@
 		}
 		"Backstabs"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%backstabs%"
@@ -1085,7 +1085,7 @@
 		}		
 		"BonusLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
@@ -1104,7 +1104,7 @@
 		}
 		"Bonus"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"

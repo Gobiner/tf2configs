@@ -170,7 +170,7 @@
 		
 		"RecedeTime"
 		{	
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"		
 			"font"			"ItemFontAttribSmall"		
 			"xpos"			"23"			
@@ -375,7 +375,7 @@
 
 		"CapNumPlayers"
 		{	
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"25"

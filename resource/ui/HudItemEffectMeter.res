@@ -35,7 +35,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CTFLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
 		"ypos"					"27"

@@ -48,7 +48,7 @@
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"m0refont12"
 			"fgcolor" "m0rewhite"
@@ -67,7 +67,7 @@
 		}							
 		"BlueTeamScore"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
 			"font"			"m0refont46"
 			"fgcolor" "m0rewhite"
@@ -87,7 +87,7 @@
 		}							
 		"RedTeamLabel"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"m0refont12"
 			"fgcolor" "m0rewhite"
@@ -106,7 +106,7 @@
 		}							
 		"RedTeamScore"
 		{
-			"ControlName"		"CTFLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
 			"font"			"m0refont46"
 			"fgcolor" "m0rewhite"
@@ -140,7 +140,7 @@
 	}
 	"WinningTeamLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 			"font"			"m0refont12"
 			"fgcolor" "m0rewhite"
@@ -160,7 +160,7 @@
 	}
 	"AdvancingTeamLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 			"font"			"m0refont12"
 			"fgcolor" "m0rewhite"
@@ -180,7 +180,7 @@
 	}
 	"WinReasonLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"0"
@@ -199,7 +199,7 @@
 	}
 	"DetailsLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"12"
@@ -237,7 +237,7 @@
 	}
 	"TopPlayersLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"15"
@@ -256,7 +256,7 @@
 	}
 	"PointsThisRoundLabel"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"136"
@@ -307,7 +307,7 @@
 	}
 	"Player1Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
 		"font"			"m0refont10"
 		"xpos"			"70"	[$WIN32]
@@ -326,7 +326,7 @@
 	}
 	"Player1Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
 		"font"			"m0refont10"
 		"xpos"			"177"
@@ -343,7 +343,7 @@
 	}
 	"Player1Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
 		"font"			"m0refont10"
 		"xpos"			"200"
@@ -377,7 +377,7 @@
 	}
 	"Player2Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
 		"font"			"m0refont10"
 		"xpos"			"70"	[$WIN32]
@@ -396,7 +396,7 @@
 	}
 	"Player2Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
 		"font"			"m0refont10"
 		"xpos"			"177"
@@ -415,7 +415,7 @@
 	}
 	"Player2Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
 		"font"			"m0refont10"
 		"xpos"			"200"
@@ -449,7 +449,7 @@
 	}
 	"Player3Name"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"font"			"m0refont10"
 		"xpos"			"70"	[$WIN32]
@@ -468,7 +468,7 @@
 	}
 	"Player3Class"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
 		"font"			"m0refont10"
 		"xpos"			"177"
@@ -487,7 +487,7 @@
 	}
 	"Player3Score"
 	{	
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
 		"font"			"m0refont10"
 		"xpos"			"200"

@@ -31,7 +31,7 @@
 			
 			"playername"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"xpos"			"0"
@@ -82,7 +82,7 @@
 			
 			"respawntime"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"m0refont10"
 				"xpos"			"5"
@@ -100,7 +100,7 @@
 			
 			"chargeamount"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"m0refont10"
 				"xpos"			"2"
@@ -118,7 +118,7 @@
 			
 			"specindex"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"4"
@@ -159,7 +159,7 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
 		"ypos"			"36"
@@ -176,56 +176,56 @@
 	}
 	"MapLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"visible"		"0"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"visible"		"0"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
 		
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"visible"		"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"visible"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"visible"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"visible"		"0"
 	}
 	"TipLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
@@ -279,7 +279,7 @@
 		
 		"attriblabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"

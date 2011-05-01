@@ -54,7 +54,7 @@
 	
 	"AccountValue"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"-35"
 		"ypos"			"78"

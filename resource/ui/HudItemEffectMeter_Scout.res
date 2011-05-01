@@ -30,7 +30,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"40"

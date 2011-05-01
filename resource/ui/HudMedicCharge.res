@@ -19,7 +19,7 @@
 	
 	"ChargeLabel"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"38"
 		"ypos"			"11"

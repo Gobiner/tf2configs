@@ -22,7 +22,7 @@
 	}
 	"AmmoInClip"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"m0refont46"
 		"font_minmode" "m0refont72"
@@ -43,7 +43,7 @@
 	}		
 	"AmmoInClipShadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"m0refont46"
 		"font_minmode" "m0refont72"
@@ -64,7 +64,7 @@
 	}						
 	"AmmoInReserve"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"m0refont20"
 		"font_minmode" "m0refont28"
@@ -84,7 +84,7 @@
 	}		
 	"AmmoInReserveShadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveshadow"
 		"font"			"m0refont20"
 		"font_minmode" "m0refont28"
@@ -105,7 +105,7 @@
 	}									
 	"AmmoNoClip"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmonoClip"
 		"font"			"m0refont46"
 		"font_minmode" "m0refont72"
@@ -126,7 +126,7 @@
 	}	
 	"AmmoNoClipShadow"
 	{
-		"ControlName"	"CTFLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmonoClipshadow"
 		"font"			"m0refont46"
 		"font_minmode" "m0refont72"

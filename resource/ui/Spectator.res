@@ -65,7 +65,7 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
 		"ypos"			"50"	[$WIN32]
@@ -85,7 +85,7 @@
 	}
 	"MapLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
 		"font_hidef"		"HudFontMedium"
@@ -107,7 +107,7 @@
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"c-85"
 		"xpos_hidef"	"c-65"
@@ -137,7 +137,7 @@
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"5"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
@@ -159,7 +159,7 @@
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"10"	[$WIN32]
@@ -180,7 +180,7 @@
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
@@ -201,7 +201,7 @@
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
@@ -222,7 +222,7 @@
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
@@ -243,7 +243,7 @@
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
@@ -264,7 +264,7 @@
 	}
 	"TipLabel"
 	{
-		"ControlName"		"CTFLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"20"
 		"xpos_hidef"	"60"
@@ -341,7 +341,7 @@
 		
 		"attriblabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
