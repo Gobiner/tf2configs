@@ -1,37 +1,13 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
-Scheme
-{
-	//Name - currently overriden in code
-	//{
-	//	"Name"	"ClientScheme"
-	//}
-
-	//////////////////////// COLORS ///////////////////////////
-	Colors
-	{
-		// base colors
-		"m0retrans" "0 0 0 75"
-		"m0reblack" "0 0 0 200"
-		"m0reshadow" "0 0 0 125"
-		"m0reblu" "0 120 201 255"
-		"m0rered" "235 58 58 255"
-		"m0rewhite" "255 255 255 255"
-		"m0retan" "235 226 202 255"
-		"m0regreen" "102 255 0 255"
+//  _________________________
+// |   #M0rehud @ Quakenet   |
+//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Scheme{Colors{
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-
+		"TFOrange"			"145 73 59 255"
+		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
@@ -54,6 +30,7 @@ Scheme
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
+		"HudBlack"			"65 65 65 255"
 		
 		"Gray"				"178 178 178 255"
 
@@ -74,6 +51,9 @@ Scheme
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
+
+		// training
+		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
 		"TanLight"				"235 226 202 255"
@@ -107,21 +87,28 @@ Scheme
 		"ItemAttribNeutral"						"235 226 202 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
+
+		"ItemSetName"							"225 255 15 255"
+		"ItemSetItemEquipped"					"149 175 12 255"
+		"ItemSetItemMissing"					"139 137 137 255"
+		"ItemIsotope"							"225 255 15 255"
+		"ItemBundleItem"						"149 175 12 255"
+		"ItemLimitedUse"						"0 160 0 255"
+		"ItemFlags"								"117 107 94 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"141 131 75 255"
-		"QualityColorrarity2"					"77 116 85 255"
-		"QualityColorrarity3"					"71 98 145 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"207 106 50 255"
 		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorrarity5"					"207 106 50 255"
+		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
 		"QualityColorCommunity"					"112 176 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
+		"QualityColorSelfMade"					"112 176 74 255"
+		"QualityColorCustomized"				"71 98 145 255"
 	}
 
-	///////////////////// BASE SETTINGS ////////////////////////
-	// default settings for all panels
-	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -129,12 +116,14 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanDark"
-		Button.BgColor					"Yellow"
-		Button.ArmedTextColor			"Black"
-		Button.ArmedBgColor				"Orange"
+		Button.TextColor				"TanLight"
+		Button.BgColor					"TanDark"
+		Button.ArmedTextColor			"TanLight"
+		Button.ArmedBgColor				"TFOrange"
+		Button.SelectedTextColor		"TanLight"
+		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"Orange"
+		Button.DepressedBgColor			"TFOrange"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -180,7 +169,7 @@ Scheme
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"LightOrange"
+		Label.DisabledFgColor2			"Black"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"
@@ -202,8 +191,8 @@ Scheme
 
 		HTML.BgColor					"Blank"
 
-		ProgressBar.FgColor				"m0rewhite"
-		ProgressBar.BgColor				"ProgressBackground"
+		ProgressBar.FgColor				"255 255 255 255"
+		ProgressBar.BgColor				"0 0 0 50"
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
@@ -346,234 +335,245 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		m0refont10
+		Coolvetica
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"10"
+				"name"		"Coolvetica"
+				"tall"		"15"
 				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"antialias" "1"
 			}
 		}
-		m0refont12
+		M0refont16
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		m0refont16
-		{
-			"1"
-			{
-				"name"		"surface-medium"
+				"name"		"Surface-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0refont20
+		M0refont18
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"20"
+				"name"		"Surface-Medium"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0refont24
+		M0refont18Outline
 		{
 			"1"
 			{
-				"name"		"surface-medium"
+				"name"		"Surface-Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		M0refont24
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0refont28
+		M0refont24Outline
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"28"
+				"name"		"Surface-Medium"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"	"1"
 			}
 		}
-		m0refont32
+		M0refont36
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		m0refont36
-		{
-			"1"
-			{
-				"name"		"surface-medium"
+				"name"		"Surface-Medium"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0refont46
+		M0refont36Outline
 		{
 			"1"
 			{
-				"name"		"surface-medium"
-				"tall"		"52"
+				"name"		"Surface-Medium"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		M0refont48
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"48"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0refont72
+		M0refont72
 		{
 			"1"
 			{
-				"name"		"surface-medium"
+				"name"		"Surface-Medium"
 				"tall"		"72"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		m0recool12
+
+		"M0rexhairCross"
 		{
 			"1"
 			{
-				"name"		"coolvetica"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"name"		  "Courier"
+				"tall"		  "20"
+				"weight"	  "0"
+				"range"     "0x0000 0x017F"
+				"outline"   "1"
 			}
 		}
-		m0recool16
+		"M0rexhairCircle"
 		{
 			"1"
 			{
-				"name"		"coolvetica"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"name"		  "taller evolution"
+				"tall"		  "36"
+				"weight"	  "0"
+				"antialias"	"1"
 			}
 		}
-		m0recool20
+		"M0rexhairDot"
 		{
 			"1"
 			{
-				"name"		"coolvetica"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"name"		  "Astro 867"
+				"tall"		  "19"
+				"weight"	  "0"
+				"additive"  "0"
+				"outline"   "1"
 			}
-		}
-		m0recool24
-		{
-			"1"
-			{
-				"name"		"coolvetica"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		m0recool32
-		{
-			"1"
-			{
-				"name"		"coolvetica"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
+		}		
 		"Default"
 		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "14"
+        "antialias" "1"
+				"yres"	    "480 700"
 			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "18"
+        "antialias" "1"
+				"yres"	    "701 899"
 			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "22"
+        "antialias" "1"
+				"yres"	    "900 1000"
 			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "1001 10000"
 			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+     }
+		"DefaultOutline"
+		{
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	    "480 700"
+				"outline"   "1"
 			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	    "701 899"
+				"outline"   "1"
 			}
-			"7"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "900 1000"
+				"outline"   "1"
 			}
-
-			
-		}
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "26"
+        "antialias" "1"
+				"yres"    	"1001 10000"
+				"outline"   "1"
+			}
+     }
+		"DefaultNumber"
+		{
+      "1"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	    "480 700"
+			}
+      "2"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	    "701 899"
+			}
+      "3"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	    "900 1000"
+			}
+      "4"
+      {
+				"name"		  "Surface-Medium"
+        "tall"      "26"
+        "antialias" "1"
+				"yres"	    "1001 10000"
+			}
+     }
 		"DefaultUnderline"
 		{
 			"1"
@@ -594,59 +594,35 @@ Scheme
 		}
 		"DefaultSmall"
 		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+      "1"
+      {
+				"name"		"Surface-Medium"
+        "tall"      "13"
+        "antialias" "1"
+				"yres"	"480 700"
 			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+      "2"
+      {
+				"name"		"Surface-Medium"
+        "tall"      "16"
+        "antialias" "1"
+				"yres"	"701 899"
 			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
+      "3"
+      {
+				"name"		"Surface-Medium"
+        "tall"      "20"
+        "antialias" "1"
+				"yres"	"900 1000"
 			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
+      "4"
+      {
+				"name"		"Surface-Medium"
+        "tall"      "24"
+        "antialias" "1"
+				"yres"	"1001 10000"
 			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
-			}
-		}
-
-
+     }
 		"DefaultVerySmall"
 		{
 			"1"
@@ -758,7 +734,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -949,6 +926,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMediumSmall"
 		{
 			"1"
@@ -1040,6 +1028,85 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"PerformanceModeSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"4"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StorePromotionsTitle"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontCartPrice"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontStorePrice"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"9"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontStoreOriginalPrice"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontStorePriceSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"6"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontStorePromotion"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"tall_hidef"	"14"
+				"tall_lodef"	"16"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1373,6 +1440,21 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		
+		"GoalText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"tall_hidef"	"14"
+				"tall_lodef"	"17"
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
+		
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1381,7 +1463,8 @@ Scheme
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
-				"antialias"		"1"
+				"antialias"		"1" 
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
@@ -1396,6 +1479,7 @@ Scheme
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
@@ -1410,6 +1494,7 @@ Scheme
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
 				"antialias" "1"
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1418,10 +1503,12 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"14"
+				"tall"			"14" [!$OSX]
+				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1554,7 +1641,44 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"ControlPointTimer"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ControlPointTimerSmaller"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 
+		"Link"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"tall_hidef"	"12"
+				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"TargetID"
 		{
 			"1"
@@ -1641,6 +1765,49 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		"ChatMiniFont"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"700"
+				"yres"		"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"700"
+				"yres"		"1200 10000"
+				"dropshadow"	"1"
+			}
+		}
 
 		MenuSmallestFont
 		{
@@ -1719,6 +1886,20 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
+		
+		InstructionalText
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"11"  [!$OSX]
+				"tall"		"9"  [$OSX]
+				"weight"	"800"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
+		
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -2170,6 +2351,67 @@ Scheme
 				}
 			}
 		}
+		DarkComboBoxBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		MainMenuSubButtonBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "1 0"
+				}
+			}
+		}
 		
 		CrosshatchedBackground
 		{
@@ -2214,12 +2456,34 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+		TFFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -2248,6 +2512,40 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 
+		ReplayDefaultBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_default"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayHighlightBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_highlight"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayBalloonBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_balloon"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
@@ -2287,11 +2585,24 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_popup"
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		BackpackItemGrayedOut
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		
 		BackpackItemBorder
@@ -2448,11 +2759,11 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
-		BackpackItemBorder_5
+		BackpackItemBorder_Vintage
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity5"
+			"color"					"QualityColorVintage"
 			
 			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -2460,11 +2771,11 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
-		BackpackItemMouseOverBorder_5
+		BackpackItemMouseOverBorder_Vintage
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity5"
+			"color"					"QualityColorVintage"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -2520,6 +2831,378 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		BackpackItemBorder_SelfMade
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorSelfMade"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_SelfMade
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorSelfMade"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemBorder_Customized
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCustomized"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Customized
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCustomized"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		StoreItemBorder
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+		}
+		StoreItemBorderMouseOver
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		StoreItemBorderSelected
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"		"2"
+			Left
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		MainMenuButtonDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		MainMenuButtonArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_hover"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		MainMenuMiniButtonDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_adv"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"1"	
+		}
+		MainMenuMiniButtonArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_adv_hover"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"1"	
+		}
+		MainMenuBGBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		MainMenuBGBorderAlpha
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_holder_central_alpha"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		MainMenuBlogTabBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"blog_tabby"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		MainMenuHighlightBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"callout_bubble"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		TrainingResultsBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		StoreNewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"new_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		StoreDiscountBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"sale_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		StorePreviewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_inspector_bg_small"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		StoreAddToCart
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_add_to_cart"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		StorePreviewTabSelected
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_tab_selected"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"	
+		}
+		StorePreviewTabUnselected
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_tab_unselected"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"16"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"	
+		}
+		StorePromotion
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_coupon_border"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ArmoryScrollbarBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"scroll_button_off"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		ArmoryScrollbarWell
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"scroll_well"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -2537,12 +3220,20 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
 			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
 			{
 				"range" "0x0000 0xFFFF"
 			}
@@ -2553,7 +3244,11 @@ Scheme
 			"name" "TF2 Professor"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
 			}
 		}	
 		"6" 
@@ -2564,20 +3259,39 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		"7" 
-		{
-			"font" "resource/Surface_Medium.otf"
-			"name" "Surface-Medium"
+			"polish"
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		"8" 
-		{
-			"font" "resource/COOLVETI.TTF"
-			"name" "coolvetica"
+			"turkish"
 			{
 				"range" "0x0000 0xFFFF"
 			}
 		}			
+		"7" 
+		{
+			"font" "resource/Surface_Medium.otf"
+			"name" "Surface-Medium"
+		}	
+		"8" 
+		{
+			"font" "resource/Surface_bold.otf"
+			"name" "Surface-bold"
+		}		
+		"9" 
+		{
+			"font" "resource/COOLVETI.TTF"
+			"name" "Coolvetica"
+		}
+		"10" 
+		{
+			"font" "resource/ASTRO867.TTF"
+			"name" "Astro 867"
+		}			
+		"11" 
+		{
+			"font" "resource/taller_evolution.ttf"
+			"name" "taller evolution"
+		}	
 	}
 }

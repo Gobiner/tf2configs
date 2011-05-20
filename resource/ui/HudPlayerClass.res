@@ -5,12 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"-20"
-		"ypos"			"18"
-		"ypos_minmode"	"18"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"		
 	}
@@ -18,35 +17,26 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"15"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"xpos"			"c55"
+		"ypos"			"383"
 		"zpos"			"2"
-		"wide"			"37"
-		"wide_minmode"	"37"
-		"tall"			"37"
-		"tall_minmode"	"37"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"alpha" "0"
 	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"3000"	//3
+		"ypos"			"r67"
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
@@ -59,16 +49,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
@@ -85,10 +71,10 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/character_red_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/character_red_bg"

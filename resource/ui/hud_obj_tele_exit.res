@@ -29,6 +29,7 @@
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
+        "alpha" "125"	
 	}
 	
 	"Icon_Teleport_Exit"
@@ -44,6 +45,7 @@
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_exit"
 		"iconColor"		"255 255 255 255"
+        "alpha" "125"	
 	}
 	
 	"NotBuiltPanel"
@@ -58,7 +60,7 @@
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"CTFLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
 			"xpos"			"60"
@@ -67,9 +69,9 @@
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built_360"
+			"labelText"		"#Building_hud_tele_exit_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -100,6 +102,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
+        "alpha" "125"	
 		}
 
 		"Icon_Upgrade_2"
@@ -116,6 +119,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
+        "alpha" "125"	
 		}
 
 		"Icon_Upgrade_3"
@@ -132,6 +136,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
+        "alpha" "125"	
 		}
 
 		"AlertTray"
@@ -142,8 +147,8 @@
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"	
+			"visible"		"0"
+			"enabled"		"0"	
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -161,6 +166,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
+        "alpha" "0"	
 		}
 		
 		"SapperIcon"
@@ -177,6 +183,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
+			
 		}
 		
 		"Health"
@@ -195,6 +202,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+        "alpha" "125"	
 		}
 
 		"BuildingPanel"
@@ -209,7 +217,7 @@
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"CTFLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"
@@ -224,6 +232,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+	        "alpha" "125"	
 			}
 			
 			"BuildingProgress"
@@ -242,6 +251,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+        "alpha" "125"	
 			}
 		}
 	
@@ -255,23 +265,21 @@
 			"tall"			"31"
 			"visible"		"0"
 		
-			"UpgradeLabel"
-			{	
-				"ControlName"	"CExLabel"
-				"fieldName"		"UpgradeLabel"
-				"font"			"DefaultverySmall"
+			"UpgradeIcon"
+			{
+				"ControlName"	"CIconPanel"
+				"fieldName"		"UpgradeIcon"
 				"xpos"			"0"
-				"ypos"			"4"
-				"wide"			"200"
-				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"ypos"			"16"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"#Building_hud_sentry_upgrade"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"scaleImage"	"1"	
+				"icon"			"ico_metal"
+				"iconColor"		"ProgressOffWhite"
+        "alpha" "125"	
 			}
 			
 			"Upgrade"
@@ -279,9 +287,9 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"0"
-				"ypos"			"16"
-				"wide"			"50"
+				"xpos"			"12"
+				"ypos"			"17"
+				"wide"			"38"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -290,6 +298,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+        "alpha" "125"	
 			}
 		}
 	}

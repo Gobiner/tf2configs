@@ -5,16 +5,14 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c130"	[$WIN32]
-		"xpos_minmode"	"c90"	[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"	"r138"	[$WIN32]
+		"xpos"			"r162"	[$WIN32]
+		"xpos_minmode"	"r130"	[$WIN32]
+		"ypos"			"r92"	[$WIN32]
+		"ypos_minmode"	"r80"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"170"
+		"wide"			"100"
 		"tall"			"50"
-		"wide_minmode"			"120"
-		"tall_minmode"			"54"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -43,23 +41,22 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"128"
-		"ypos"					"34"
-		"xpos_minmode"			"75"
-		"ypos_minmode"			"13"
+		"xpos"					"25"
+		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"M0refont24"
+		"fgcolor_override" "255 255 255 255"
 	}
 
 	"ItemEffectMeter"
@@ -67,7 +64,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"28"
+		"xpos"					"25"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
@@ -88,12 +85,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"138"
-		"ypos"					"17"
-		"xpos_minmode"			"64"
-		"ypos_minmode"			"13"
+		"xpos"					"25"
+		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"20"
+		"wide"					"40"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -103,30 +98,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"				"HudFontSmall"
-	}
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"139"
-		"ypos"					"18"
-		"xpos_minmode"			"65"
-		"ypos_minmode"			"13"
-		"zpos"					"1"
-		"wide"					"20"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"				"HudFontSmall"
-		"fgcolor"				"black"
+		"font"					"M0refont24"
+		"fgcolor_override" "255 255 255 255"
 	}
 }
