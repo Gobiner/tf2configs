@@ -1052,8 +1052,8 @@
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-1000"
-		"ypos"					"16"
+		"xpos"					"c-70"
+		"ypos"					"-16"
 		"wide"					"140"
 		"tall"					"65"
 	}

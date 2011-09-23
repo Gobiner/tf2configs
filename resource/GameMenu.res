@@ -8,7 +8,7 @@
 	}
 	"VersionNumber"
 	{
-		"label" "M0REHUD 1.4"
+		"label" "M0REHUD 1.5"
 		"command" "engine showconsole; echo #M0rehud @ Quakenet"
 		"OnlyAtMenu" "1"
 	}
@@ -38,16 +38,22 @@
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
-	"CoachPlayers"
+	"COACH"
 	{
 		"label"			"COACH"
 		"command"		"engine cl_coach_toggle"
 		"OnlyInGame"	"1"
 	}
-	"ReplayBrowserButton"
+	"REPLAY"
 	{
 		"label" "REPLAY"
 		"command" "engine replay_reloadbrowser"
+	}
+	"OFFLINE PRACTICE"
+	{
+		"label" "OFFLINE PRACTICE"
+		"command" "offlinepractice"
+		"OnlyAtMenu" "1"
 	}
 	"DEMOUI"
 	{

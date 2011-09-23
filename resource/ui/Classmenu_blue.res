@@ -47,8 +47,8 @@
 		"Default"			"1"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 		
 	"Offense"
@@ -94,8 +94,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	"soldier_blue"
 	{
@@ -114,8 +114,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	"pyro_blue"
 	{
@@ -134,8 +134,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	
 	"Defense"
@@ -181,8 +181,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}	
 	"heavyweapons_blue"
 	{
@@ -201,8 +201,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	"engineer_blue"
 	{
@@ -221,8 +221,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	
 	"Support"
@@ -268,8 +268,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	"sniper_blue"
 	{
@@ -288,8 +288,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}
 	"spy_blue"
 	{
@@ -308,8 +308,8 @@
 		"Default"			"0"
 		"font"				"default"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override"		"0 255 255 255"
-		"depressedFgColor_override"	"0 255 255 255"
+		"armedFgColor_override"		"0 120 201 255"
+		"depressedFgColor_override"	"0 120 201 255"
 	}	
 
 	"EditLoadoutButton" [$WIN32] 
@@ -323,8 +323,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
@@ -440,7 +440,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -916,8 +916,8 @@
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_blu"
 		"src_corner_height"	 "15"
 		"src_corner_width"	 "15"
@@ -926,18 +926,18 @@
 	}	
 	"HudClassWhiteSeperate"
 	{	
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldname"     "HudClassWhiteSeperate"
-		"xpos"		    	"c-1"
-		"ypos"		    	"0"
+		"xpos"		    	"c-19"
+		"ypos"		    	"c-50"
 		"zpos"          "9"
-		"wide"		    	"2"
-		"tall"		    	"15"
+		"wide"		    	"1"
+		"tall"		    	"122"
 		"autoResize"  	"0"
 		"pinCorner" 		"0"
-		"visible"	    	"1"
-		"enabled"		    "1"
-		"fillcolor"     "255 255 255 255"
+		"visible"	    	"0"
+		"enabled"		    "0"
+		"fillcolor"     "0 120 201 255"
 	}
 	"TeamName"
 	{
@@ -948,8 +948,8 @@
 		"zpos"			"11"
 		"wide"			"60"
 		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"Blu"
 		"textAlignment"	"east"
 		"font"			"Default"

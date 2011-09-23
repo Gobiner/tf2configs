@@ -447,14 +447,14 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-70 -16"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-70 16"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-70 -26"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-70 26"	Spline 0.001 0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-70 16"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-70 -16"	Spline 0.001 0.5
+	Animate HudTournamentSetup	Position	"c-70 26"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-70 -26"	Spline 0.001 0.6
 }
 
 
