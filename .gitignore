@@ -45,3 +45,11 @@
 /resource/tf2secondary.ttf
 /addons_unused
 /movie
+/cfg/chris.high.frames.cfg
+/cfg/jump_pyro_stock.cfg
+/cfg/replay.cfg
+/cfg/replay_ftp.cfg
+/cfg/replay_local_http.cfg
+/cfg/sixense_bindings.cfg
+/trainingprogress.txt
+/replay
